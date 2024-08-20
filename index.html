@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mia Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #292a37;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Fa in modo che la pagina occupi tutta l'altezza del viewport */
+            text-align: center;
+        }
+
+        .hero {
+            position: relative;
+            color: white;
+            max-width: 1000px; /* Limita la larghezza massima della sezione per centrarla meglio */
+            width: 100%; /* Si adatta alla larghezza del viewport */
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(25, 23, 34, 0.494); /* Sfondo semitrasparente */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            color: #ffcc00;
+        }
+
+        .hero-text h1 {
+            margin: 0;
+            font-size: 2.5;
+            color: #ffcc00;
+        }
+
+        .hero-text p {
+            font-size: 1.1em;
+            color: #f5c60b;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            font-size: 1em;
+            color: #F5F5F5;
+            background-color: #ffd9015f;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #50C878;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="ideogram.png" alt="Immagine di sfondo">
+        <div class="hero-text">
+            <h1>Dai vita digitale agli edifici esistenti con il BIM</h1>
+            <p>Saremo presto online con tutti i servizi</p>
+            <a href="mailto:hbim_it@gmail.com" class="cta-button">Se ti servono informazioni scrivici</a>
+        </div>
+    </div>
+</body>
+</html>
