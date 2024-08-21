@@ -16,20 +16,20 @@
             min-height: 100vh; /* Fa in modo che la pagina occupi tutta l'altezza del viewport */
             text-align: center;
         }
-
+    
         .hero {
             position: relative;
             color: white;
             max-width: 1000px; /* Limita la larghezza massima della sezione per centrarla meglio */
             width: 100%; /* Si adatta alla larghezza del viewport */
         }
-
+    
         .hero img {
             width: 100%;
             height: auto;
             display: block;
         }
-
+    
         .hero-text {
             position: absolute;
             top: 50%;
@@ -41,18 +41,18 @@
             max-width: 80%;
             color: #ffcc00;
         }
-
+    
         .hero-text h1 {
             margin: 0;
             font-size: 2.5em;
             color: #ffcc00;
         }
-
+    
         .hero-text p {
             font-size: 1.1em;
             color: #f5c60b;
         }
-
+    
         .cta-button {
             display: inline-block;
             margin-top: 20px;
@@ -63,9 +63,43 @@
             text-decoration: none;
             border-radius: 5px;
         }
-
+    
         .cta-button:hover {
             background-color: #50C878;
+        }
+    
+        /* Media Queries per rendere la pagina reattiva */
+        
+        /* Per schermi di dimensione media (tablet) */
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 2em;
+            }
+    
+            .hero-text p {
+                font-size: 1em;
+            }
+    
+            .cta-button {
+                font-size: 0.9em;
+                padding: 12px 20px;
+            }
+        }
+    
+        /* Per schermi di dimensione piccola (smartphone) */
+        @media (max-width: 480px) {
+            .hero-text h1 {
+                font-size: 1.5em;
+            }
+    
+            .hero-text p {
+                font-size: 0.9em;
+            }
+    
+            .cta-button {
+                font-size: 0.8em;
+                padding: 10px 15px;
+            }
         }
     </style>
 </head>
