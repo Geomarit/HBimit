@@ -6,12 +6,12 @@
       "permanent": true
     },
     {
-      "source": "hbim.it",
+      "source": "hbim.it/",
       "destination": "https://www.hbim.it",
       "permanent": true
     },
     {
-      "source": "www.hbim.it",
+      "source": "https://hbim.it/",
       "destination": "https://www.hbim.it",
       "permanent": true
     }
