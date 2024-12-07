@@ -4,11 +4,6 @@
       "source": "/",
       "destination": "https://www.hbim.it",
       "permanent": true
-    },
-    {
-      "source": "/hbim.it",
-      "destination": "https://www.hbim.it",
-      "permanent": true
     }
   ]
 }
