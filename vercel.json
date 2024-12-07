@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "http://hbim.it",
+      "destination": "https://www.hbim.it",
+      "permanent": true
+    },
+    {
+      "source": "https://hbim.it",
+      "destination": "https://www.hbim.it",
+      "permanent": true
+    }
+  ]
+}
